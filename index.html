@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="shortcut icon" href="build/img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="build/css/style.css">
+</head>
+
+<body>
+	<div class="container container__mobile">
+		<!--container -->
+		<header id="header" class="header">
+
+			<div class="wrap logo__wrap">
+				<div class="logo"><img src="build/img/logo.png" alt="logo image"></div>
+				<div class="logo__about"><span class="logo__text-green">BAZABET</span> - создан игроками для игроков
+				</div>
+			</div>
+
+			<div class="wrap header__wrap header__wrap-big">
+
+				<div class="left-col">
+
+					<div class="header__logo">
+						Бонус <span class="header__green">100%</span>
+					</div>
+					<div class="header__deposite">на первый депозит</div>
+					<div class="header__text">
+						<p>
+							пополняй счет и получай <br /><span class="header__text-green">в 2 раза больше денег</span>
+						</p>
+					</div>
+
+					<section class="join">
+						<div class="join join-desktop">
+							<form action="index_submit" method="get" accept-charset="utf-8">
+								<button type="" class="join__btn"><span class="btn__text">получить бонус</span></button>
+							</form>
+						</div>
+					</section>
+				</div>
+
+
+				<div class="right-col">
+
+
+					<div class="header__img">
+						<img class="truck" id="truck" src="build/img/truck.png" alt="truck" onmouseover="myTruck()"
+							onmouseout="myTruckNull()">
+						<img class="football" id="football" src="build/img/footbBig.png" alt="footbal player"
+							onmouseover="myFootb()" onmouseout="myFootNull()">
+
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="wrap header__wrap header__wrap-mobile">
+
+				<div class="header__logo">Бонус <span class="header__green">100%</span>
+				</div>
+				<div class="header__deposite">на первый дипозит</div>
+
+				<div class="header__img">
+
+					<img class="truck" src="build/img/truck@1X.png">
+
+					<img class="football" src="build/img/Слой 11@1X.png" alt="placeholder+image">
+				</div>
+
+				<div class="header__text">
+					<p>
+						пополняй счет и получай <br /><span class="header__text-green">в 2 раза больше денег</span>
+					</p>
+				</div>
+
+			</div>
+		</header><!-- /header -->
+
+		<section class="join header__wrap-mobile">
+			<div class="wrap join">
+				<form action="index_submit" method="get" accept-charset="utf-8">
+					<button type="" class="join__btn" onmouseover="mousePuls()"><span class="btn__text">получить
+							бонус</span></button>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="steps">
+			<div class="wrap steps__wrap">
+
+				<div class="steps__group">
+					<div class="numbers">
+						<span class="numbers__items">1</span>
+					</div>
+
+					<div class="steps__item">
+						<span class="steps__text">Регистрируйся</span>
+					</div>
+
+				</div>
+
+				<div class="arrow">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+
+				<div class="steps__group">
+					<div class="numbers">
+						<span class="numbers__items">2</span>
+					</div>
+
+					<div class="steps__item">
+						<span class="steps__text">Пополняй счет</span>
+					</div>
+				</div>
+
+				<div class="arrow">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+
+
+				<div class="steps__group">
+					<div class="numbers">
+						<span class="numbers__items">3</span>
+					</div>
+
+					<div class="steps__item">
+						<span class="steps__text">Выигрывай</span>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+		<section class="features">
+			<div class="wrap features__wrap">
+				<div class="features__list">
+					<div class="features__item">
+						<div class="features__row"><img src="build/img/feat1.png" class="features__icon">
+							<p class="features__text">Лицензия Министерства Финансов Украины</p>
+						</div>
+					</div>
+					<div class="features__item">
+						<div class="features__row"><img src="build/img/feat2.png" class="features__icon">
+							<p class="features__text">Принимаем ставки 24/7</p>
+						</div>
+					</div>
+					<div class="features__item">
+						<div class="features__row"><img src="build/img/feat3.png" class="features__icon">
+							<p class="features__text">Высокие коэффициенты</p>
+						</div>
+					</div>
+					<div class="features__item">
+						<div class="features__row"><img src="build/img/feat4.png" class="features__icon">
+							<p class="features__text">Гарантированные выплаты</p>
+						</div>
+					</div>
+					<div class="features__item">
+						<div class="features__row"><img src="build/img/feat5.png" class="features__icon">
+							<p class="features__text">Live ставки</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="payments">
+
+			<div class="wrap payments__wrap">
+
+
+				<div class="payments__group">
+					<div class="payments__item">
+
+						<a href="#"><img src="build/img/master.png" alt="placeholder+image"></a>
+					</div>
+
+					<div class="payments__item">
+						<a href="#"><img src="build/img/privat.png" alt="placeholder+image"></a>
+
+					</div>
+
+
+
+					<div class="payments__item">
+						<a href="#"><img src="build/img/visa.png" alt="placeholder+image"></a>
+
+					</div>
+					<div class="payments__item">
+						<a href="#"><img src="build/img/liq.png" alt="placeholder+image">
+						</a>
+
+					</div>
+
+
+
+					<div class="payments__item">
+						<a href="#"><img src="build/img/sofort.png" alt="placeholder+image"></a>
+
+					</div>
+					<div class="payments__item">
+						<a href="#"><img src="build/img/money.png" alt="placeholder+image"></a>
+
+
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<footer>
+			<div class="wrap footer__wrap">
+				<p>copyright 2018 bazabet.com.ua все права защищены</p>
+			</div>
+
+		</footer>
+	</div>
+
+	<script src="build/js/script.js"></script>
+
+</body>
+
+</html>

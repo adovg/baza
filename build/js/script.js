@@ -1,0 +1,1 @@
+function myFootb(){let t=document.getElementById("football");setTimeout(function(){t.style.left="100px"},500)}function myFootNull(){let t=document.getElementById("football");setTimeout(function(){t.style.left="0px"},1e3)}
